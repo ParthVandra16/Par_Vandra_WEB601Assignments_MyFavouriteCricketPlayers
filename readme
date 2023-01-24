@@ -1,0 +1,20 @@
+Name: Parth Vandra
+Course Name: JavaScript WEB601
+Title: Assignment1
+
+Assignment Description:
+In this assignment I can create angular application using node.js.
+I have select theme.
+my theme name is MyFavouriteCricketPlayer.
+
+First I have change version 0.0.1 in the package.json file.
+After that I add script to genrate directive,pipe and component and run script in the terminal.
+
+After that I create helpfiles folder inside the app folder.
+In the helper file folder I cretae two new file one is interface and another is for class.
+and write code accroding to the assignment.
+
+Then I genrate component card.
+
+
+
