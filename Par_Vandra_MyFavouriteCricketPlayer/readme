@@ -17,4 +17,13 @@ and write code accroding to the assignment.
 Then I genrate component card.
 
 
+ASSIGNMENT2
 
+I have delete class containlist class from content card
+delete the content-list.ts helper file
+
+generate new component called content-list
+crete an array of 6 item in the content-list.component.ts file
+write css code for styling in the content-list.component.scss
+
+ remove Content-card from the html and add Content-list

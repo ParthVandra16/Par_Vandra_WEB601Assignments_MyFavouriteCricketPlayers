@@ -1,7 +1,22 @@
-<p>content-card works!</p>
-
-<img src="{{CricketerListArray.CricketerlistConst()[0].imgURL}}">
-
-<h1>{{CricketerListArray.CricketerlistConst()[0].title}}</h1>
-
-<h1>{{CricketerListArray.CricketerlistConst()[0].description}}</h1>
+<div
+  ngClass="{{ content?.id === 1 ? 'content-card first' : 'content-card' }}"
+  (click)="onPress()"
+>
+  <div class="content-img">
+    <img src="{{ content?.imgURL }}" alt="{{ content?.title }}" />
+  </div>
+  <div class="content">
+    <div class="content-card-header">
+      <h3>{{ content?.title }}</h3>
+      <h4>{{ content?.director }}</h4>
+      <ul class="content-tags">
+        <li class="content-tag" *ngFor="let tag of content?.tags">
+          {{ tag }}
+        </li>
+      </ul>
+    </div>
+    <p class="content-description">
+      {{ content?.description }}
+    </p>
+  </div>
+</div>

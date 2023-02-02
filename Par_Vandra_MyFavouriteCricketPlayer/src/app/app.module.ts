@@ -1,20 +1,36 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+// import { NgModule } from '@angular/core';
+// import { BrowserModule } from '@angular/platform-browser';
+//
+// import { AppComponent } from './app.component';
+// import { ContentCardComponent } from './content-card/content-card.component';
+// import { ContentListComponent } from './content-list/content-list.component';
+// import {RouterOutlet} from "@angular/router";
+//
+// @NgModule({
+//   declarations: [
+//     AppComponent,
+//     ContentCardComponent,
+//     ContentListComponent
+//   ],
+//   imports: [
+//     BrowserModule,
+//     RouterOutlet
+//   ],
+//   providers: [],
+//   bootstrap: [AppComponent]
+// })
+// export class AppModule { }
 
-import { AppComponent } from './app.component';
-import { ContentCardComponent } from './content-card/content-card.component';
-import { ContentListComponent } from './content-list/content-list.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContentCardComponent,
-    ContentListComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppModule { }
+export class AppRoutingModule { }
+
+export class AppModule {
+}
