@@ -63,6 +63,15 @@ export class ContentListComponent implements OnInit {
       title: 'Cricketer 6',
       //  imageURL: 'https://angular.io/assets/images/logos/angular/angular.png',
       description: 'Description of crocketer 6',
+      cricketername: 'Krunal Pandya',
+      type: 'Type 6',
+      tags: ['Tag 6', 'Tag 7']
+    },
+    {
+      id: 7,
+      title: 'Cricketer 7',
+      //  imageURL: 'https://angular.io/assets/images/logos/angular/angular.png',
+      description: 'Description of crocketer 7',
       cricketername: 'Ishan kisan',
       type: 'Type 6',
       tags: ['Tag 6', 'Tag 7']
