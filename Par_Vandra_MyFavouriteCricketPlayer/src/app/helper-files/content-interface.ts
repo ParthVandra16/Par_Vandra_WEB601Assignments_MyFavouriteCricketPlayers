@@ -5,6 +5,6 @@ export interface Content{
   cricketername: string;
   imgURL?:string;
   type?:string;
-  tags?:string;
+  tags?:string[];
 
 }
